@@ -11,8 +11,8 @@ spiderBody.pensize(40)
 spiderBody.circle(20)
 
 # configure the spider legs
-legCount = 8
-legLength = 90
+legCount = 6
+legLength = 70
 legAngle = 380 / legCount
 spiderBody.pensize(5)
 spiderLeg = 0
