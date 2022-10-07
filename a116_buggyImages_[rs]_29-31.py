@@ -28,11 +28,20 @@ while (spiderLeg < legCount):
 
 spiderBody.penup()
 
-spiderBody.goto(15,0)
+spiderBody.goto(0,-30)
+spiderBody.pendown()
+spiderBody.pensize(30)
+spiderBody.circle(10)
+
+spiderBody.goto(15,-30)
 spiderBody.color("white")
+spiderBody.pensize(5)
 spiderBody.stamp()
 
-spiderBody.goto(-20,0)
+spiderBody.penup()
+
+spiderBody.goto(-20,-30)
+spiderBody.pendown()
 spiderBody.stamp()
 
 spiderBody.hideturtle()
